@@ -1,0 +1,70 @@
+* {
+    font-family: 'Press Start 2P', system-ui;
+}
+
+body {
+    font-size: 16px;
+    color: #212529;
+    background-color: #fff;
+    -webkit-font-smoothing: none;
+    margin: 0;
+}
+
+
+
+#mainDiv {
+    border: 2px solid red;
+    text-align: left;
+    margin: 0 auto; /* Esto centra el mainDiv horizontalmente */
+    width: 50%; /* Ajusta el ancho según tus necesidades */
+    padding: 20px; /* Ajusta según tus preferencias */
+}
+
+#meImg {
+    width: 200px;
+}
+
+#aboutDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#btnDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 1em;
+}
+
+.nes-btn {
+    width: 100%;
+    height: 50%;
+    padding: 0px;
+    border: 4px solid black;
+}
+
+#contact {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#projectImg {
+    width: 100%;
+}
+
+#project {
+    width: 25%;
+}
+#projectBtn {
+    width: 80%;
+}
+
+#mainProjects {
+    display: flex;
+}
+
+#skillsDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
