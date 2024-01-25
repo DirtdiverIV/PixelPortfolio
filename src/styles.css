@@ -5,7 +5,7 @@
 body {
     font-size: 16px;
     color: #212529;
-    background-color: #fff;
+    background-color: #cec9cc;
     -webkit-font-smoothing: none;
     margin: 0;
 }
@@ -13,15 +13,22 @@ body {
 
 
 #mainDiv {
-    border: 2px solid red;
     text-align: left;
     margin: 0 auto; /* Esto centra el mainDiv horizontalmente */
     width: 50%; /* Ajusta el ancho según tus necesidades */
     padding: 20px; /* Ajusta según tus preferencias */
+    background-color: #908a99;
+    border: 4px solid black;
+    margin-top: 2em;
 }
 
 #meImg {
     width: 200px;
+    
+}
+
+img {
+    border: 4px solid black;
 }
 
 #aboutDiv {
@@ -50,6 +57,7 @@ body {
 
 #projectImg {
     width: 100%;
+    height: 10em;
 }
 
 #project {
@@ -67,4 +75,31 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+#project {
+    background-color: #b5b6e4;
+    margin-bottom: 2em;
+}
+
+header {
+    background-color: #b5b6e4;
+    border-bottom: 4px solid black;
+    padding: 1em;
+}
+
+#skills {
+    margin-bottom: 2em;
+}
+
+#carreer {
+    margin-bottom: 2em;
+}
+
+span {
+    color: #4f43ae;
+}
+
+#gamesDiv {
+    display: flex;
 }
